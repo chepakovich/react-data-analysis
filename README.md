@@ -7,7 +7,7 @@ To simulate a production environment, rate limiting is set on API requests to ev
 
 Here is a screenshot of one of the pages:
 <p align="center">
-  <img src="screenshot.png" width="350"/>
+  <img src="screenshot.png" width="700"/>
 </p>
 
 ## Instructions on installation and running
