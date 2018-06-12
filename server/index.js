@@ -16,11 +16,11 @@ let limiter = new RateLimiter(5, 10000, true)
 // max 5 requests in 10 seconds from a specific IP address
 
 // RELEVANT DB CONNECTION DATA SHOULD BE ENTERED HERE:
-const PGHOST = ''
-const PGPORT = ''
-const PGDATABASE = ''
-const PGUSER = ''
-const PGPASSWORD = '!'
+const PGHOST = 'work-samples-db.cx4wctygygyq.us-east-1.rds.amazonaws.com'
+const PGPORT = '5432'
+const PGDATABASE = 'work_samples'
+const PGUSER = 'readonly'
+const PGPASSWORD = 'w2UIO@#bg532!'
 
 const pool = new pg.Pool({
   user: PGUSER,
